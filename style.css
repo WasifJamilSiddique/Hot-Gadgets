@@ -1,0 +1,39 @@
+
+html{
+    scroll-behavior: smooth;
+}
+#navbarNav .nav-link{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.buy-now-btn{
+    color: #ffffff;
+    background: #000000;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.marginStyle{
+    margin-top: 120px;
+}
+
+#product a{
+    text-decoration: none;
+}
+#about .row{
+    margin-bottom: 50px;
+}
+#product .row{
+    margin-bottom: 50px;
+}
+#about .card-footer{
+    border-top: none;
+    background: white;
+}
+
+.bd-sty{
+    height: 70%;
+    width: 70%;
+    border: 1px solid black;
+}
