@@ -6,6 +6,7 @@
     <title>Hot Gadgets</title>
     <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font-awesome.min.css">
 </head>
 <body>
     <div class="container">
@@ -30,6 +31,9 @@
                     </li>
                     <li class="nav-item">
                         <a href="#categories" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Accordion" class="nav-link">FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -197,31 +201,117 @@
     </div>
 
     <!--Categories Section-->
-    <div class="container marginStyle id="categories">
+    <div class="container marginStyle" id="categories">
         <h3 class="text-center text-warning">Categories</h3>
-        <div class="row">
-            <div class="col-3 bd-sty d-flex justify-content-center align-items-center">
-                <div class="">
-                    <img class="img-fluid" src="./img/bag.png" alt="">
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="row">
-                    <div class="col-12 d-flex align-items-center">
-                        <img src="./img/perfume.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 d-flex align-items-center">
-                        <img src="./img/shoe.png" alt="" class="img-fluid">
+        <div class="d-flex justify-content-center mb-4">
+            <br>
+            <div class="line"></div>
+        </div>
+        <div class="row d-flex align-items-center">
+            <div class="col-md-3">
+                <div class="box">
+                    <div class="text-center">
+                        <img class="mt-4 img-fluid" src="./img/bag.png" alt="">
+                        <p class="box-font">Bag</p>
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="text-center">
+                                <img class="mt-4 img-fluid" src="./img/perfume.png" alt="">
+                                <p class="box-font">Beauty</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="text-center">
+                                <img class="mt-4 img-fluid" src="./img/shoe.png" alt="">
+                                <p class="box-font">Shoe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
                 <img src="./img/pale-order.png" alt="" class="img-fluid">
+                <span class="mt-2"></span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--FAQ Section-->
+    <div id="Accordion" class="pt-5 marginStyle" role="tablist">
+        <h3 class="text-center mb-4">FAQ</h3>
+        <div class="card">
+            <div class="card-header" role="tab">
+                <h5 class="mb-0">
+                    <div data-toggle="collapse" href="#collapse1">
+                        <i class="big">⤋</i> Muri Kamne Khay ??
+                    </div>
+                </h5>
+            </div>
+            <div id="collapse1" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur consectetur
+                        accusantium, molestias quos, distinctio, labore assumenda repellendus, beatae adipisci fuga
+                        explicabo iure quia. Facilis ratione, aut, impedit id rerum voluptate?</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" role="tablist">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <div data-toggle="collapse" href="#collapse2">
+                        <i class="">⤋</i> Kon torkari te lobon day na??
+                    </div>
+                </h5>
+            </div>
+        </div>
+        <div id="collapse2" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur consectetur
+                    accusantium, molestias quos, distinctio, labore assumenda repellendus, beatae adipisci fuga explicabo
+                    iure quia. Facilis ratione, aut, impedit id rerum voluptate</p>
             </div>
         </div>
     </div>
+    <div class="card text-center">
+        <div class="card-header" role="tab">
+            <h5 class="mb-0">
+                <div data-toggle="collapse" href="#collapse3">
+                    <i class="big">⤋</i> Kon miste te chini day na??
+                </div>
+            </h5>
+        </div>
+        <div id="collapse3" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur consectetur
+                    accusantium, molestias quos, distinctio, labore assumenda repellendus, beatae adipisci fuga explicabo
+                    iure quia. Facilis ratione, aut, impedit id rerum voluptate?</p>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <div id="footer-section">
+        <div class="footer text-center">
+            <p class="lead">
+                <small> Copyright © 2020 Programming Hero, All Rights Reserved. </small>
+            </p>
+        </div>
+    </div>
+
 
 
     <script src="./jquery-3.2.1.slim.min.js"></script>

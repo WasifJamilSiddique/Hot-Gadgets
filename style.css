@@ -31,9 +31,49 @@ html{
     border-top: none;
     background: white;
 }
+.box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid gray;
+    background: white;
+    box-shadow: 5px 5px 20px gray;
+    padding-bottom: 20px;
+}
+.line{
+    height: 10px;
+    width: 90px;
+    border-radius: 25px;
+    background: linear-gradient(yellow, orange);
+    border: 1px solid orange;
+}
+.box-font{
+    font-size: 25px;
+    color: black;
+    font-family: cursive;
+}
 
-.bd-sty{
-    height: 70%;
-    width: 70%;
-    border: 1px solid black;
+#carouselExampleIndicators li{
+    height: 10px;
+    width: 40px;
+    border-radius: 15px;
+}
+
+#faq {
+    background-image: linear-gradient(blue, lightblue);
+}
+
+#faq .text-primary{
+    margin-bottom: 80px;
+}
+
+.big{
+    font-size: 20px;
+}
+
+#Accordion{
+    text-align: center;
+}
+
+#footer-section{
+    margin-top: 60px;
 }
