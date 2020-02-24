@@ -32,19 +32,23 @@ html{
     background: white;
 }
 .box{
-    height: 200px;
-    width: 200px;
-    border: 1px solid gray;
-    background: white;
-    box-shadow: 5px 5px 20px gray;
-    padding-bottom: 20px;
+    box-shadow: 1px 1px 10px lightgray;
+    padding: 20px 0px;
+    border-radius: 6px;
+}
+.box h5{
+    margin-top: 15px;
+}
+.marginStyle2{
+    margin-bottom: 30px;
 }
 .line{
-    height: 10px;
-    width: 90px;
+    height: 7px;
+    width: 100px;
     border-radius: 25px;
     background: linear-gradient(yellow, orange);
     border: 1px solid orange;
+    margin-bottom: 20px;
 }
 .box-font{
     font-size: 25px;
@@ -58,19 +62,11 @@ html{
     border-radius: 15px;
 }
 
-#faq {
-    background-image: linear-gradient(blue, lightblue);
-}
-
-#faq .text-primary{
-    margin-bottom: 80px;
-}
-
 .big{
     font-size: 20px;
 }
 
-#Accordion{
+#faq{
     text-align: center;
 }
 
