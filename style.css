@@ -61,7 +61,14 @@ html{
     width: 40px;
     border-radius: 15px;
 }
-
+.cyan-bg{
+    background-color: cyan;
+    padding: 20px 20px;
+}
+.cyan-bg #marginStyle{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .big{
     font-size: 20px;
 }
